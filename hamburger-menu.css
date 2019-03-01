@@ -24,10 +24,29 @@ img{
   color: white;
 
 }
+nav {
+  display: flex;
+}
+
+
+
+.nav-left{
+
+  width: 20%;
+}
+.nav-rigth{
+  text-align: center;
+  width: 80%;
+}
+
+#zalando{
+  height: 50px;
+  width: 100px;
+  line-height: 60px;
+}
 
 .container {
   display: none;
-  z-index: auto;
   border: 1px solid white;
   background-color: black;
   width: 150px;
