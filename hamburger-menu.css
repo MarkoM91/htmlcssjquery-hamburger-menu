@@ -35,14 +35,16 @@ nav {
   width: 20%;
 }
 .nav-rigth{
-  text-align: center;
   width: 80%;
+  text-align: center;
+
 }
 
 #zalando{
   height: 50px;
   width: 100px;
   line-height: 60px;
+
 }
 
 .container {
