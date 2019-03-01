@@ -36,8 +36,10 @@ nav {
 }
 .nav-rigth{
   width: 80%;
-  text-align: center;
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
 }
 
 #zalando{
