@@ -73,6 +73,13 @@ and (max-width: 1000px){
   .fa-bars{
     display: block;
   }
+  .header{
+    height: 80px;
+    max-width: 100vw;
+  }
+  li#iscriviti{
+  background-color: none;
+  padding : 12px 0;
 
 }
 @media screen and (min-width: 1000px){
