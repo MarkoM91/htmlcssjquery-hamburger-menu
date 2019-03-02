@@ -20,7 +20,7 @@ margin: 0;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
-  padding-right: 30px;
+  margin-right: 40px;
   align-items: center;
 
   }
@@ -28,15 +28,23 @@ margin: 0;
 .container  ul li{
   list-style: none;
   display: inline-block;
+
 }
 
 a{
   text-decoration: none;
   color: black;
   padding: 25px;
+  font-weight: 300;
+
 }
 
-#iscriviti{
+li#iscriviti{
 background-color: rgb(246, 141, 92);
-padding: 15px 10px;
+padding : 12px 0;
+
+}
+#iscriviti a{
+color: white;
+font-weight: 300;
 }
