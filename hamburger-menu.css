@@ -4,28 +4,35 @@ margin: 0;
 }
 
 .header{
-  height: 60px;
+  height: 80px;
   border-bottom: 1px solid rgba(15, 10, 1, 0.44);
 }
 
-.header > * {
-  float: right;
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
 }
+
 .container{
   width: 50%;
   height: 100%;
-  padding-left: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding-right: 30px;
+  align-items: center;
+
   }
 
 .container  ul li{
   list-style: none;
   display: inline-block;
-  text-align: center;
-  line-height: 60px;
 }
 
 a{
   text-decoration: none;
-  color: rgba(15, 10, 1, 0.44);
-  padding: 20px;
+  color: black;
+  padding: 25px;
+
 }
