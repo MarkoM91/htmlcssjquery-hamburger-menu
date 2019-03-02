@@ -5,6 +5,7 @@ margin: 0;
 
 .header{
   height: 80px;
+  max-width: 100vw;
   border-bottom: 1px solid rgba(15, 10, 1, 0.44);
 }
 
@@ -47,4 +48,21 @@ padding : 12px 0;
 #iscriviti a{
 color: white;
 font-weight: 300;
+}
+
+
+@media screen and (max-width: 800px){
+
+}
+
+
+@media screen and (min-width: 800px)
+and (max-width: 1000px){
+  .container{
+              display: none;
+  }
+
+}
+@media screen and (min-width: 1000px){
+
 }
