@@ -3,61 +3,29 @@ box-sizing: border-box;
 margin: 0;
 }
 
-body{
-  background-color: rgb(40, 32, 187);
-}
-nav{
-  width: 100vw;
+.header{
   height: 60px;
-  background-color: red;
-  color: white
+  border-bottom: 1px solid rgba(15, 10, 1, 0.44);
 }
 
-a {
-  text-decoration: none;
-  color: white;
+.header > * {
+  float: right;
 }
+.container{
+  width: 50%;
+  height: 100%;
+  padding-left: 100px;
+  }
 
-img{
-  width: 50px;
-  height: 50px;
-  color: white;
-
-}
-nav {
-  display: flex;
-}
-
-
-
-.nav-left{
-
-  width: 20%;
-}
-.nav-rigth{
-  width: 80%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
-}
-
-#zalando{
-  height: 50px;
-  width: 100px;
-  line-height: 60px;
-
-}
-
-.container {
-  display: none;
-  border: 1px solid white;
-  background-color: black;
-  width: 150px;
+.container  ul li{
+  list-style: none;
+  display: inline-block;
   text-align: center;
+  line-height: 60px;
 }
 
-.container div{
-  padding: 10px;
-  border-bottom: 1px solid white;
+a{
+  text-decoration: none;
+  color: rgba(15, 10, 1, 0.44);
+  padding: 20px;
 }
