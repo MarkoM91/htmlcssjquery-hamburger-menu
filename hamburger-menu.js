@@ -9,6 +9,7 @@ span.click(function() {
 
   span.hide();
   body.css("background" , "darkblue").css("text-align" , "left")
+  li.removeClass("iscriviti");
   container.show(function() {
     li.css("display" , "block").css("width" , 400).css("height" , 200).css("font-size" , 36)
     a.css("text-decoration" , "underline").css("color" , "white")

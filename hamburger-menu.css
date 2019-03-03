@@ -40,12 +40,12 @@ a{
 
 }
 
-li#iscriviti{
+li.iscriviti{
 background-color: rgb(246, 141, 92);
 padding : 12px 0;
 
 }
-#iscriviti a{
+.iscriviti a{
 color: white;
 font-weight: 300;
 }
