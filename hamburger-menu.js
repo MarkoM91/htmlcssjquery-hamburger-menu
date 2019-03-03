@@ -27,7 +27,14 @@ spanham.click(function() {
 spancross.click(function() {
 
   container2.hide()
-  container.show()
+  spanham.show(function() {
+    container.show(2000);
+  })
+
+
+
+
+
   body.css("background" , "white")
   liorange.addClass("iscriviti")
 
