@@ -97,4 +97,9 @@ and (max-width: 1000px){
 }
 @media screen and (min-width: 1000px){
 
+  .header{
+    height: 80px;
+    max-width: 100vw;
+    border-bottom: 1px solid rgba(15, 10, 1, 0.44);
+  }
 }
