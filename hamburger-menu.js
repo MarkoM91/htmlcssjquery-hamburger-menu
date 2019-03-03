@@ -4,6 +4,7 @@ var container = $('.container');
 var li = $('.container ul li');
 var body = $('body');
 var a = $('a');
+var ul = $('ul');
 
 
 spanham.click(function() {
@@ -13,9 +14,10 @@ spanham.click(function() {
   body.css("background" , "rgb(43, 63, 88)")
   li.removeClass("iscriviti");
   container.show(function() {
-    li.css("display" , "block").css("width" , 400).css("height" , 100).css("font-size" , 36).css("position" , "relative").css("right" , "500px")
+    li.css("display" , "block").css("width" , 400).css("height" , 170).css("font-size" , 26).css("position" , "relative").css("right" , "470px")
     a.css("text-decoration" , "underline").css("color" , "white")
-
+    ul.css("padding-top" , "60px")
   });
+
 
 });
