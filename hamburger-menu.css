@@ -10,6 +10,7 @@ margin: 0;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
+  flex-wrap: nowrap;
 }
 
 .container{
@@ -18,6 +19,7 @@ margin: 0;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
+  flex-wrap: nowrap;
   margin-right: 40px;
   align-items: center;
 
@@ -56,12 +58,34 @@ font-weight: 300;
   color: rgba(15, 10, 1, 0.44);
 }
 .fa-times{
-  display: none;
-  position: relative;
-  top: 35px;
-  right: 25px;
+  position: absolute;
+  top: 20px;
+  left: 96%;
   color: white;
+
 }
+
+.hamburger-menù2{
+  height: 100%;
+  width: 100%;
+  display: none;
+}
+
+li.due{
+padding-top: 50px;
+padding-bottom: 50px;
+padding-left: 20px;
+list-style: none;
+}
+
+
+
+li.due > a{
+  text-decoration: underline;
+  color: white;
+  font-size: 28px;
+}
+
 
 @media screen and (max-width: 800px){
   .container{
@@ -73,7 +97,9 @@ font-weight: 300;
   .header{
     height: 80px;
     max-width: 100vw;
-    border: 1px solid rgb(43, 63, 88);
+    border-bottom: 1px solid rgb(43, 63, 88);
+    flex-wrap: nowrap;
+
   }
 }
 
@@ -89,7 +115,7 @@ and (max-width: 1000px){
   .header{
     height: 80px;
     max-width: 100vw;
-    border: 1px solid rgb(43, 63, 88);
+    border-bottom:  1px solid rgb(43, 63, 88);
 
   }
 
