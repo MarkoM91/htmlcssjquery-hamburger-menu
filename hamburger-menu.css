@@ -58,7 +58,13 @@ font-weight: 300;
   width: 50px;
   color: rgba(15, 10, 1, 0.44);
 }
-
+.fa-times{
+  display: none;
+  position: relative;
+  top: 35px;
+  right: 25px;
+  color: white;
+}
 
 @media screen and (max-width: 800px){
   .container{
