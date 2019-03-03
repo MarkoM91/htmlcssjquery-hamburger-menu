@@ -15,8 +15,11 @@ spanham.click(function() {
   li.removeClass("iscriviti")
   container.hide(function() {
 
-   container2.show()
-   
+   container2.show(function() {
+
+     container.hide()
+   })
+
   })
 
 
