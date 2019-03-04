@@ -12,13 +12,13 @@ var liorange = $('li.iscriviti');
 spanham.click(function() {
 
   spanham.hide()
-  body.css("background" , "rgb(43, 63, 88)")
+
   container.hide(function() {
 
-   container2.show(function() {
+   container2.addClass("active")
+   spancross.show()
 
-     container.hide()
-   })
+
 
   })
 
@@ -26,16 +26,9 @@ spanham.click(function() {
 
 spancross.click(function() {
 
-  container2.hide()
-  spanham.show(function() {
-    container.show(2000);
-  })
+  container2.addClass("active")
+  container.show()
 
-
-
-
-
-  body.css("background" , "white")
   liorange.addClass("iscriviti")
 
 });
