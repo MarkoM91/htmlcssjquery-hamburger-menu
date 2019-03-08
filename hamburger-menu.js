@@ -1,34 +1,18 @@
-var spanham = $('span i.fa-bars');
-var spancross = $('span i.fa-times');
-var container = $('.container');
-var li = $('.container ul li');
-var body = $('body');
-var a = $('a');
-var container2 = $('.hamburger-menù2');
-var liorange = $('li.iscriviti');
+function Exercise(){
+  var menu = $('i.fa-bars');
+  var hiddennav = $('.hidden-nav');
+  var hiddenmenù = $('i.fa-times');
 
 
+  $(document).ready(function() {
 
-spanham.click(function() {
+   menu.click(function() {
+      hiddennav.addClass("active");
 
-  spanham.hide()
-
-  container.hide(function() {
-
-   container2.addClass("active")
-   spancross.show()
-
-
-
-  })
-
-});
-
-spancross.click(function() {
-
-  container2.addClass("active")
-  container.show()
-
-  liorange.addClass("iscriviti")
-
-});
+   });
+   hiddenmenù.click(function() {
+     hiddennav.removeClass('active');
+   });
+  });
+}
+Exercise();
