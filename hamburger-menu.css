@@ -1,47 +1,63 @@
 * {
-box-sizing: border-box;
-margin: 0;
+
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
+
 nav{
+
   height: 80px;
   width: 100%;
+
   display: flex;
   justify-content: flex-end;
   align-items: center;
+
   border-bottom: 1px solid black;
 }
 
 .container{
+
   width: 50%;
   height: 100%;
+
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
+
   align-items: center;
   padding-right: 30px;
 }
 
 .hidden-nav{
+
   position: absolute;
   top: 0;
   left: 0;
-  display: none;
+
   width: 100%;
   height: 100%;
   min-width: 100vw;
   min-height: 100vh;
-  background-color: darkblue;
 
+  display: none;
+  background-color: darkblue;
 }
+
 .hidden-nav ul{
+
   display: flex;
-  height: 100%;
   flex-direction: column;
   justify-content: space-around;
   align-items: flex-start;
+
+  height: 100%;
   list-style: none;
 }
+
 .hidden-nav ul li a{
+
   color: white;
   text-decoration: none;
   font-size: 25px;
@@ -49,24 +65,43 @@ nav{
 }
 
 .main-nav {
+
   text-align: right;
 }
 
-  i.fa-bars, i.fa-times{
+.fa-bars {
+
   display: none;
 }
 
+i.fa-times{
+
+  position: absolute;
+  right: 20px;
+  top: 20px;
+
+  color: white;
+  font-size: 35px;
+
+  display: block;
+  text-decoration: none;
+}
+
 .main-nav ul li{
+
   list-style: none;
   display: inline-block;
   padding: 0 15px;
 }
+
 .main-nav ul li a{
-color: black;
-text-decoration: none;
+
+  color: black;
+  text-decoration: none;
 }
 
-#iscriviti{
+.iscriviti{
+
   background: rgb(231, 141, 92);
   padding: 15px 20px;
   color: white;
@@ -74,16 +109,19 @@ text-decoration: none;
 
 @media all and (max-width: 1000px){
 
-  i.fa-bars {
-    display: block;
+  ul{
 
+    display: none;
+  }
+
+  i.fa-bars {
+
+    display: block;
     font-size: 20px;
   }
 
- .main-nav{
-
- }
- .active{
-   display:block;
- }
+  .active{
+    
+    display:block;
+   }
 }
